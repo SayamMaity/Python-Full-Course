@@ -59,5 +59,4 @@ print(str[2:len(str)]) #llo world
 
 print(str[-5:-1]) #world
 print(str[-1:-4]) #empty string, slicing does not work in reverse order
-print(str[-5:])
-print(str[-5:-1]) #worl
+print(str[-5:]) #world
