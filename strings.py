@@ -63,3 +63,4 @@ print(str[-5:]) #world
 
 #string functions
 fg="I am studying python from geeksforgeeks"
+
