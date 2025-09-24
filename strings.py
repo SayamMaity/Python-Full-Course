@@ -63,3 +63,5 @@ print(str[-5:]) #world
 
 #string functions
 fg="I am studying python from geeksforgeeks"
+fg.endswith("geeks") #True
+print(fg.endswith("geeks")) #True
