@@ -63,5 +63,10 @@ print(str[-5:]) #world
 
 #string functions
 fg="I am studying python from geeksforgeeks"
-fg.endswith("geeks") #True
-print(fg.endswith("geeks")) #True
+print(fg.endswith("geeks")) #returns true if string ends with given substr
+print(fg.startswith("I am")) #True
+print(fg.count("g")) #3
+print(fg.find("python")) #14
+print(fg.capitalize()) #I am studying python from geeksforgeeks
+print(fg.replace("geeks","GEEKS")) #I am studying python from GEEKSforgeeks
+print(fg.count("am"))#counts the occurence of substr
