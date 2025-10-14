@@ -69,4 +69,7 @@ print(fg.count("g")) #3
 print(fg.find("python")) #14
 print(fg.capitalize()) #I am studying python from geeksforgeeks
 print(fg.replace("geeks","GEEKS")) #I am studying python from GEEKSforgeeks
-print(fg.count("am"))#counts the occurence of substr
+print(fg.count("am"))#counts the occurence of substring
+print(fg.upper()) #converts to uppercase
+print(fg.lower()) #converts to lowercase
+print(fg.title()) #I Am Studying Python From Geeksforgeeks
